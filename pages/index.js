@@ -66,6 +66,6 @@ export const getStaticProps = async () => {
     props: {
       fetchVC,
     },
-    // revalidate: 10,
+    revalidate: 10,
   }
 }
