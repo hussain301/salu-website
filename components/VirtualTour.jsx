@@ -15,7 +15,7 @@ const VirtualTour = () => {
                         <Button className = "w-fit">Read More</Button>
                     </motion.div>
                    
-                        <iframe src="https://player.vimeo.com/video/803137895?h=167d187b50" alt="" allowFullScreen className="h-64 rounded-lg aspect-video" />
+                        <iframe src="https://player.vimeo.com/video/803137895?h=167d187b50" alt="video of the salu" allowFullScreen className="h-64 rounded-lg aspect-video" />
                     
                 </div>
             </div>

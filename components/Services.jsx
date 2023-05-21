@@ -16,16 +16,16 @@ const Services = () => {
             <div className='grid grid-cols-1   justify-items-center lg:px-20 w-full lg:grid-cols-4 -5 sm:p-10 bg-gray-100 md:grid-cols-2 gap-4 py-10 px-5'>
             {services.map((service, i) => {
                 return (
-                    <div key={i} class="flex flex-col hover:shadow-xl transition-all duration-300 overflow-hidden group bg-white md:w-full border w-[95%] sm:w-[80%] shadow-sm rounded-xl">
-                        <img class="w-full aspect-video duration-500 group-hover:scale-110 group-hover:h[40%] transition-all h-[50%] rounded-t-xl" src={service.url} alt="Image Description" />
-                        <div class="p-4 border-t  md:p-5">
-                            <h3 class="text-lg font-bold text-gray-800 ">
+                    <div key={i} className="flex flex-col hover:shadow-xl transition-all duration-300 overflow-hidden group bg-white md:w-full border w-[95%] sm:w-[80%] shadow-sm rounded-xl">
+                        <img className="w-full aspect-video duration-500 group-hover:scale-110 group-hover:h[40%] transition-all h-[50%] rounded-t-xl" src={service.url} alt="Image Description" />
+                        <div className="p-4 border-t  md:p-5">
+                            <h3 className="text-lg font-bold text-gray-800 ">
                                 {service.title}
                             </h3>
-                            <p class="mt-1 text-gray-800 ">
+                            <p className="mt-1 text-gray-800 ">
                                 {service.description}
                             </p>
-                            <Link target='_blank' class="mt-3 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm " href={service.buttonLink}>
+                            <Link target='_blank' className="mt-3 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm " href={service.buttonLink}>
                                 Access Now
                             </Link>
                         </div>

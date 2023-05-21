@@ -25,7 +25,7 @@ const Hero = () => {
 
       <motion.h1 initial={{y:-10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:.3,delay:.5}} className='sm:text-5xl tracking-widest md:tracking-wide leading-10 text-3xl z-10 sm:py-3  capitalize font-bold text-white'>Shah <span className='underline decoration-pink-500 z-10 '>abdul</span> latif university khairpur</motion.h1>
 
-      <h1 dir='left'  className={`sm:text-5xl tracking-widest md:tracking-wide text-3xl z-10 sm:py-3 ${fontAlexandria.className} capitalize font-bold text-white`}>شاه عبداللطيف يونيورسٽي خيرپور</h1>
+      <h1 dir='left'  className={`font-sans sm:text-5xl tracking-widest md:tracking-wide text-3xl z-10 sm:py-3 ${fontAlexandria.className}  capitalize font-bold text-white`}>شاه عبداللطيف يونيورسٽي خيرپور</h1>
       <div className='h-3'/>
         {/* <Courses /> */}
       </div>

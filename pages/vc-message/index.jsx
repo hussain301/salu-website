@@ -9,7 +9,7 @@ const index = ({ fetchVC }) => {
               justify-center '>
                 <div className='lg:w-3/4 leading-relaxed w-full p-5 md:p-10 gap-10 bg-gray-100'>
                     <h1 className='text-2xl md:text-3xl text-[#111644] mb-5 font-bold'>
-                        Vice Chancellor`&apos;`s message
+                        Vice Chancellors message
                     </h1>
                     <p >
                         {fetchVC[0].vcfullmessage}
@@ -33,12 +33,9 @@ export default index
 
 export const getStaticProps = async () => {
     const fetchVC = await fetchVcMsg()
-
     return {
         props: {
             fetchVC,
-
-
         },
 
     }
