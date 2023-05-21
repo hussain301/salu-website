@@ -3,5 +3,5 @@ import ConferenceWorkshop from './ConferenceWorkshop'
 import PhdFaculty from './PhdFaculty'
 import pdf from './pdf'
 import VcMessage from './VcMessage'
-
-export const schemaTypes = [ VcMessage, ConferenceWorkshop, pdf, PhdFaculty,Events]
+import Announcements from './Announcements'
+export const schemaTypes = [Announcements, VcMessage, ConferenceWorkshop, pdf, PhdFaculty, Events]

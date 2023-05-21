@@ -6,7 +6,7 @@ export default {
     {
       type: 'image',
       name: 'image',
-      title: 'Image',
+      title: 'Event Image',
       options: {
         hotspot: true,
       },

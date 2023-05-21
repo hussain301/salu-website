@@ -1,11 +1,13 @@
 import React from 'react'
 import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { urlFor } from '../../sanity';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+
 
 const slides = [
     { url: '/car1.jpg' },
@@ -33,14 +35,23 @@ const slides = [
             'https://salu.edu.pk/wp-content/uploads/2022/10/caa2029d-5a34-42e3-ae96-def54c259067-1024x768.jpg',
     },
 ]
-const Crousel = ({ direction = 'horizontal' }) => {
+const Carousel = ({ direction = 'horizontal', events }) => {
+
     return (
-        <div className='md:bg-[#01366a]  bg-gray-50 md:py-10'>
+        <div className='md:bg-[#01366a]  bg-gray-50 md:py-5'>
             <div className='lg:px-20 md:px-10 px-2'>
                 <div className='rounded-t-md text-center p-2'>
                     <h1 className='md:text-white text-[#01366a] font-bold uppercase text-2xl'>OUR EVENTS</h1>
                 </div>
                 <Swiper
+                    slidesPerView={1}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 30,
+                        },
+                    }
+                    }
                     direction={direction}
                     spaceBetween={30}
                     centeredSlides={false}
@@ -60,8 +71,9 @@ const Crousel = ({ direction = 'horizontal' }) => {
                     modules={[Autoplay, Keyboard, Pagination, Navigation]}
                     className="mySwiper  rounded-md"
                 >
-                    {slides.map((slide, index) => {
-                        return (<SwiperSlide className='select-none ' key={index}> <img className=' aspect-video w-full h-full' src={slide.url} /></SwiperSlide>)
+                    {events.map((event, index) => {
+
+                        return (<SwiperSlide className='select-none ' key={index}> <img className=' aspect-video w-full h-full' src={urlFor(event.image).url()} /></SwiperSlide>)
                     })
                     }
                 </Swiper>
@@ -71,4 +83,4 @@ const Crousel = ({ direction = 'horizontal' }) => {
     )
 }
 
-export default Crousel
+export default Carousel

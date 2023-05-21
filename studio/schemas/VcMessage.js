@@ -16,5 +16,15 @@ export default {
       type: 'string',
       title: 'Vc message',
     },
+    {
+      name: 'vcfullmessage',
+      type: 'string',
+      title: 'Full VC Message',
+    },
+    {
+      name: 'vctitle',
+      type: 'string',
+      title: 'Vc Title',
+    },
   ],
 }
