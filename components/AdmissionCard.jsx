@@ -18,7 +18,7 @@ const AdmissionCard = () => {
 
                 <div className='flex flex-col md:flex-row justify-center w-full  md:w-auto mx-auto gap-5'>
                     {data.map((item, i) => {
-                        return (<div style={{ backgroundImage: `url(${item.url})` }} className='lg:w-[300px] lg:h-[470px] group xl:w-[370px] xl:h-[450px] relative flex items-center justify-center rounded-md md:w-[280px] mx-auto h-[350px] w-[90%] bg-cover bg-center '>
+                        return (<div key={i} style={{ backgroundImage: `url(${item.url})` }} className='lg:w-[300px] lg:h-[470px] group xl:w-[370px] xl:h-[450px] relative flex items-center justify-center rounded-md md:w-[280px] mx-auto h-[350px] w-[90%] bg-cover bg-center '>
                             <div className='absolute w-full z-0 rounded-md bg-[#01366a]/30 group-hover:bg-[#01366a]/50 transition-all ease-in-out duration-300 left-0 top-0 h-full' />
 
                             <div className='z-10 p-5  relative'>

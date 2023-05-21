@@ -34,7 +34,7 @@ const Annoucement = () => {
               <tbody className='text-[12px]  text-[#252525]  '>
                 {announcements.map(announcement => {
                   return (
-                    <tr className='hover:bg-gray-100 transition-all w-full cursor cursor-pointer'>
+                    <tr key={announcement.sr} className='hover:bg-gray-100 transition-all w-full cursor cursor-pointer'>
                       <td className="py-4 border-t px-2 ">{announcement.sr}</td>
                       <td className="py-4 border-t md:text-sm text-[16px] font-[500] text-[#01366a] px-2">{announcement.title}</td>
                       <td className="py-4 border-t flex justify-start px-2">

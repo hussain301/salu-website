@@ -238,7 +238,7 @@ const Model = () => {
                                     {/* <!-- End Grid --> */}
 
                                     <p class="mt-4 text-xs text-gray-500">
-                                        Completely unstyled, fully accessible UI <a class="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium" href="../plugins.html">plugins</a> for popular features that for one reason or another don't belong in core.
+                                        Completely unstyled, fully accessible UI <a class="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium" href="../plugins.html">plugins</a> for popular features that for one reason or another dont belong in core.
                                     </p>
                                 </div>
                             </div>

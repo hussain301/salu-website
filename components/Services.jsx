@@ -16,7 +16,7 @@ const Services = () => {
             <div className='grid grid-cols-1   justify-items-center lg:px-20 w-full lg:grid-cols-4 -5 sm:p-10 bg-gray-100 md:grid-cols-2 gap-4 py-10 px-5'>
             {services.map((service, i) => {
                 return (
-                    <div class="flex flex-col hover:shadow-xl transition-all duration-300 overflow-hidden group bg-white md:w-full border w-[95%] sm:w-[80%] shadow-sm rounded-xl">
+                    <div key={i} class="flex flex-col hover:shadow-xl transition-all duration-300 overflow-hidden group bg-white md:w-full border w-[95%] sm:w-[80%] shadow-sm rounded-xl">
                         <img class="w-full aspect-video duration-500 group-hover:scale-110 group-hover:h[40%] transition-all h-[50%] rounded-t-xl" src={service.url} alt="Image Description" />
                         <div class="p-4 border-t  md:p-5">
                             <h3 class="text-lg font-bold text-gray-800 ">

@@ -11,7 +11,7 @@ const Courses = () => {
   {/* <!-- Grid --> */}
 
   <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">  
-    {courses.map((course) =>  ( <Link href='/'> <div class="h-28 sm:h-32 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4  ">
+    {courses.map((course) =>  ( <Link key={course} href='/'> <div class="h-28 sm:h-32 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4  ">
       {/* <!-- Icon --> */}
       <div class="flex justify-center items-center w-12 h-12 bg-gradient-to-br from-blue-600 to-violet-600 rounded-md mx-auto">
         <svg class="w-7 h-7 text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">

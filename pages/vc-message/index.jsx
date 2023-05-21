@@ -4,12 +4,12 @@ import { urlFor } from '../../sanity'
 
 const index = ({ fetchVC }) => {
     return (
-        <section className=' mdp-10 bg-green-400'>
+        <section className='mdp-10 bg-green-400'>
             <div className='flex flex-col lg:flex-row py-10 lg:pr-14  bg-gray-100  lg:items-center items-center
               justify-center '>
                 <div className='lg:w-3/4 leading-relaxed w-full p-5 md:p-10 gap-10 bg-gray-100'>
                     <h1 className='text-2xl md:text-3xl text-[#111644] mb-5 font-bold'>
-                        Vice Chancellor's message
+                        Vice Chancellor`&apos;`s message
                     </h1>
                     <p >
                         {fetchVC[0].vcfullmessage}

@@ -12,7 +12,7 @@ const SubDropDownMenu = (props) => {
             </button>
 
             <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-2 bg-[#b9bbcc] sm:shadow-md rounded-lg p-2  before:absolute sm:border before:-right-5 before:top-0 before:h-full before:w-5 top-0 right-full !mx-[10px]">
-                {props.subMenuContent.map(item => <Link className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-900 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 " href="#">
+                {props.subMenuContent.map(item => <Link key={item.name}className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-900 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 " href="#">
                     {item.name}
                 </Link>)}
 
