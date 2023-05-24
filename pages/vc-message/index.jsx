@@ -1,7 +1,7 @@
 import React from 'react'
 import { fetchVcMsg } from '../../utils'
 import { urlFor } from '../../sanity'
-
+let counter = 0
 const index = ({ fetchVC }) => {
     return (
         <section className='mdp-10 bg-green-400'>
@@ -20,18 +20,13 @@ const index = ({ fetchVC }) => {
                     <h2 className='text-[#111644] font-bold text-xl'>{fetchVC[0].vctitle}</h2>
                 </div>
             </div>
-
         </section>
-
-
-
-
     )
 }
 
 export default index
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     const fetchVC = await fetchVcMsg()
     return {
         props: {

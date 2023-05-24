@@ -20,25 +20,25 @@ import {
 } from '../utils'
 import Courses from '../components/courses/Courses'
 
-export default function Home(props) {
+export default function Home(props=null) {
   return (
     <div className="snap-y scroll-smooth snap-mandatory">
       <Hero />
       <Annoucement />
       <Courses/>
-      <Vcmsg vcInfo={props.fetchVC} />
+      <Vcmsg vcInfo={props?.fetchVC} />
       <VirtualTour />
       <Statistic />
-      <Carousel events={props.events} />
+      <Carousel events={props?.events} />
       <Services />
       <AdmissionCard />
-      <PhdFaculty teachers={props.phdTeachers} />
+      <PhdFaculty teachers={props?.phdTeachers} />
       <GoogleMap />
     </div>
   )
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const fetchVC = await fetchVcMsg()
   const events = await fetchEvents()
   const phdTeachers = await fetchPhdFaculty()
@@ -51,6 +51,6 @@ export const getStaticProps = async () => {
       events,
       phdTeachers,
     },
-    revalidate: 1,
+   
   }
 }
