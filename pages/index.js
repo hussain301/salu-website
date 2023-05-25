@@ -42,6 +42,7 @@ export default function Home(props = null) {
 export const getStaticProps = async () => {
 
   if (typeof windows ==='undefined'){
+    console.log('server is not running')
     return {
       props: {
         fetchVC: null,
@@ -52,6 +53,7 @@ revalidate: 60,
     }
   }
   else{
+    console.log('server is running')
     const fetchVC = await fetchVcMsg()
     const events = await fetchEvents()
     const phdTeachers = await fetchPhdFaculty()
@@ -63,7 +65,7 @@ revalidate: 60,
       events,
       phdTeachers,
     },
-    revalidate: 1,
+    revalidate: 60,
   }
    
   }
