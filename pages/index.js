@@ -48,7 +48,7 @@ export const getStaticProps = async () => {
         events: null,
         phdTeachers: null,
       },
-revalidate: 1,
+revalidate: 60,
     }
   }
   else{
