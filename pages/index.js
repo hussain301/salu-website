@@ -20,37 +20,51 @@ import {
 } from '../utils'
 import Courses from '../components/courses/Courses'
 
-export default function Home(props=null) {
+export default function Home(props = null) {
   return (
     <div className="snap-y scroll-smooth snap-mandatory">
       <Hero />
       <Annoucement />
-      <Courses/>
-      <Vcmsg vcInfo={props?.fetchVC} />
+      <Courses />
+      {props?.fetchVC && <Vcmsg vcInfo={props.fetchVC} />}
       <VirtualTour />
       <Statistic />
-      <Carousel events={props?.events} />
+      {props?.events && <Carousel events={props.events} />}
       <Services />
       <AdmissionCard />
-      <PhdFaculty teachers={props?.phdTeachers} />
+      {props?.phdTeachers && <PhdFaculty teachers={props.phdTeachers} />}
       <GoogleMap />
     </div>
-  )
+  );
 }
 
-export const getServerSideProps = async () => {
-  const fetchVC = await fetchVcMsg()
-  const events = await fetchEvents()
-  const phdTeachers = await fetchPhdFaculty()
-  // const announcements = await fetchAnnouncements()
-  
 
+export const getStaticProps = async () => {
+
+  if (typeof windows ==='undefined'){
+    return {
+      props: {
+        fetchVC: null,
+        events: null,
+        phdTeachers: null,
+      },
+revalidate: 1,
+    }
+  }
+  else{
+    const fetchVC = await fetchVcMsg()
+    const events = await fetchEvents()
+    const phdTeachers = await fetchPhdFaculty()
+    // const announcements = await fetchAnnouncements()
+     
   return {
     props: {
       fetchVC,
       events,
       phdTeachers,
     },
+    revalidate: 1,
+  }
    
   }
 }
