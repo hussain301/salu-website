@@ -34,13 +34,22 @@ export const getStaticProps = async () => {
 
   if (typeof window === 'undefined') {
     // Running on the server during build process
-    fetchVC = await fetchVcMsg();
-  }
+   return {
+        props: {   
+            fetchVC: null,
+        },revalidate: 60,
+    };
 
-  return {
-    props: {
-      fetchVC: fetchVC || null,
-    },
-    revalidate: 60,
+   }
+  else{
+    fetchVC = await fetchVcMsg();
+
+    
+    return {
+        props: {
+            fetchVC: fetchVC,
+        },
+        revalidate: 60,
+    }
   };
 };
