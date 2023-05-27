@@ -40,19 +40,7 @@ export default function Home(props = null) {
 
 
 export const getStaticProps = async () => {
-  if (typeof window === 'undefined') {
-    // Running on the server during build process
-    console.log('Server is not running');
-    return {
-      props: {
-        fetchVC: null,
-        events: null,
-        phdTeachers: null,
-      },
-      revalidate: 60,
-    };
-  } else {
-    console.log('Server is running');
+  
     const fetchVC = await fetchVcMsg();
     const events = await fetchEvents();
     const phdTeachers = await fetchPhdFaculty();
@@ -67,5 +55,4 @@ export const getStaticProps = async () => {
       revalidate: 60,
     };
   }
-};
 

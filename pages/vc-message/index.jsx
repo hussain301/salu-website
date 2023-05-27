@@ -30,21 +30,8 @@ const index = ({ fetchVC }) => {
 export default index
 
 export const getStaticProps = async () => {
-  let fetchVC;
-
-  if (typeof window === 'undefined') {
-    // Running on the server during build process
-   return {
-        props: {   
-            fetchVC: null,
-        },revalidate: 60,
-    };
-
-   }
-  else{
-    fetchVC = await fetchVcMsg();
-
-    
+  
+   const  fetchVC = await fetchVcMsg();
     return {
         props: {
             fetchVC: fetchVC,
@@ -52,4 +39,3 @@ export const getStaticProps = async () => {
         revalidate: 60,
     }
   };
-};

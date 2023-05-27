@@ -15,7 +15,7 @@ export const Vcmsg = ({ vcInfo }) => {
                     <h1 className='text-3xl font-bold  text-[#01366a]'>Message from Vice Chancellor </h1>
                     <hr className='w-[30%]' />
                     <motion.p variants={fadeIn("", "", 0.1, 1)} className='md:text-base text-[#111644] xl:text-lg leading-relaxed'>
-                        {vcInfo[0].vcmessage}
+                        {vcInfo[0]?.vcmessage??'Loading...'}
                     </motion.p>
                     <div>
                         <Button><Link href='/vc-message'>Read More</Link></Button>
