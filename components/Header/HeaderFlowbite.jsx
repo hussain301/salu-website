@@ -20,7 +20,7 @@ const HeaderFlowbite = () => {
                     <span className='hidden md:inline-block'>Shah Abdul Latif University</span>
                 </motion.div>
                 <ul className='text-sm capitalize justify-end flex gap-2 sm:gap-5 px-3 items-center  '>
-                    {links.map((link, index) => (<li key={index} className=' hover:text-blue-600 cursor-pointer px-3 sm:p-0 sm:mt-0 transition-all duration-300 text-[#a1a4bb]'><Link href={link.link}>{link.name}</Link></li>))}
+                    {links.map((link, index) => (<li key={index} className=' hover:text-blue-600 cursor-pointer px-3 sm:p-0 sm:mt-0 transition-all duration-300 text-[#a1a4bb]'><Link href={link.link}>{link.name}plus</Link></li>))}
                 </ul>
             </div>
             <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
