@@ -52,7 +52,7 @@ export const getStaticProps = async () => {
         events,
         phdTeachers,
       },
-      revalidate: 60,
+      revalidate: 60*1440, //that is 24 hours
     };
   }
 
