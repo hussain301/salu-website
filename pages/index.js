@@ -24,17 +24,17 @@ import Courses from '../components/courses/Courses'  // Importing Courses compon
 export default function Home(props = null) {
   return (
     <div className="snap-y scroll-smooth snap-mandatory">
-      <Hero />                      // Rendering the Hero component for the hero section
-      <Annoucement />               // Rendering the Annoucement component for displaying announcements
-      <Courses />                   // Rendering the Courses component for displaying courses
-      {props?.fetchVC && <Vcmsg vcInfo={props.fetchVC} />}  // Rendering the Vcmsg component for displaying VC message if available
-      <VirtualTour />               // Rendering the VirtualTour component for displaying a virtual tour
-      <Statistic />                 // Rendering the Statistic component for displaying statistics
-      {props?.events && <Carousel events={props.events} />}  // Rendering the Carousel component for displaying a carousel of events if available
-      <Services />                  // Rendering the Services component for displaying services
-      <AdmissionCard />             // Rendering the AdmissionCard component for displaying admission card
-      {props?.phdTeachers && <PhdFaculty teachers={props.phdTeachers} />}  // Rendering the PhdFaculty component for displaying PhD faculty if available
-      <GoogleMap />                 // Rendering the GoogleMap component for displaying Google Maps
+      <Hero />                     
+      <Annoucement />             
+      <Courses />                  
+      {props?.fetchVC && <Vcmsg vcInfo={props.fetchVC} />}  /
+      <VirtualTour />               
+      <Statistic />                 
+      {props?.events && <Carousel events={props.events} />}  
+      <Services />                 
+      <AdmissionCard />            
+      {props?.phdTeachers && <PhdFaculty teachers={props.phdTeachers} />}  
+      <GoogleMap />                 
     </div>
   );
 }
