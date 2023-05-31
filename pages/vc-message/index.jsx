@@ -36,6 +36,6 @@ export const getServerSideProps = async () => {
         props: {
             fetchVC: fetchVC,
         },
-        revalidate: 60*1440, //that is 24 hours
+        // revalidate: 60*1440, //that is 24 hours
     }
   };
