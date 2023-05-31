@@ -17,8 +17,6 @@ export  const menu = [
             },
         ]
     },
-
-
     {
         name: 'Faculties', link: [
             {

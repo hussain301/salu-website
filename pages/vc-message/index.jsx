@@ -29,7 +29,7 @@ const index = ({ fetchVC }) => {
 
 export default index
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   
    const  fetchVC = await fetchVcMsg();
     return {

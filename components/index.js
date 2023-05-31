@@ -9,6 +9,7 @@ import PhdFaculty from './PhdFaculty'
 import GoogleMap from './GoogleMap'
 import VirtualTour from '../components/VirtualTour'
 import Model from './Models/Model'
+import Courses from './courses/Courses'
 
 export {
   Hero,
@@ -22,4 +23,5 @@ export {
   GoogleMap,
   VirtualTour,
   Model,
+  Courses
 }
