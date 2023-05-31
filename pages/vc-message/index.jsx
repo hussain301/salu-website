@@ -29,13 +29,13 @@ const index = ({ fetchVC }) => {
 
 export default index
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   
    const  fetchVC = await fetchVcMsg();
     return {
         props: {
             fetchVC: fetchVC,
         },
-        // revalidate: 60*1440, //that is 24 hours
+        revalidate: 60*1440, //that is 24 hours
     }
   };
