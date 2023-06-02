@@ -1,11 +1,8 @@
 import React from 'react'
 import { fetchVcMsg } from '../../utils'
 import { urlFor } from '../../sanity'
-let counter = 0
+
 const index = ({ fetchVC }) => {
-      if (!fetchVC) {
-    return <div>Loading...</div>; // Or any other fallback UI when fetchVC is null
-  }
     return (
         <section className='mdp-10 bg-green-400'>
             <div className='flex flex-col lg:flex-row py-10 lg:pr-14  bg-gray-100  lg:items-center items-center

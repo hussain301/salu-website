@@ -3,11 +3,11 @@ import React from 'react'
 
 const Courses = () => {
 
-    const courses = ['Art & Language', 'Education', 'Management Science', 'Social Sciences', 'Natrual Sciences', 'Law','Physical Sciences']
+    const courses = ['Art & Language', 'Education', 'Management Science', 'Social Sciences', 'Natrual Sciences', 'Law','Physical Sciences','IT']
 
-    return ( <div className='bg-[#002133] py-5 md:p-10 '>
+    return ( <div className='bg-[#151C55] py- md:p-10 '>
        <h1 className='text-white text-2xl text-center '>Offered Cources</h1>
-       <div className="max-w-[85rem] bg-[#002133] px-4 sm:px-6 lg:px-8 pt-5 mx-auto">
+       <div className="max-w-[85rem]  px-4 sm:px-6 lg:px-8 pt-5 mx-auto">
   {/* <!-- Grid --> */}
 
   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">  

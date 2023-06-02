@@ -122,7 +122,7 @@ export  const menu = [
                     { name: 'SALU Software Technology Park', link: '/' }
                     , { name: 'Reasearch Papers 2018-19', link: '/' },
                     { name: 'Guidelines for ORIC', link: '/' }
-                    , { name: 'Kamyab Jawan markas', link: '/' },
+                    ,{ name: 'Kamyab Jawan markas', link: '/' },
                     { name: 'Teacher Date Form', link: '/' },
                     { name: 'ORIC-The Team', link: '/' }
                 ]

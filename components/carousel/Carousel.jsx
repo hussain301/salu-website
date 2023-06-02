@@ -38,7 +38,7 @@ const slides = [
 const Carousel = ({ direction = 'horizontal', events }) => {
 
     return (
-        <div className='md:bg-[#01366a]  bg-gray-50 md:py-5'>
+        <div className='md:bg-[#01366a]  bg-gray-50 md:py-5 md:pb-7 '>
             <div className='lg:px-20 md:px-10 px-2'>
                 <div className='rounded-t-md text-center p-2'>
                     <h1 className='md:text-white text-[#01366a] font-bold uppercase text-2xl'>OUR EVENTS</h1>
