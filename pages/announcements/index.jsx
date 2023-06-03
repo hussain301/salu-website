@@ -11,16 +11,19 @@ const index = () => {
     { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
     { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
     { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
-    { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
-    { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
-    { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
-    { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
-    { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
-    { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
-    { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
-    { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
+    // { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
+    // { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
+    // { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
+    // { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
+    // { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
+    // { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
+    // { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
+    // { sr: '03', title: 'Title', dateOfAnnouncement: 'date of Announcement', lastDate: 'last Date' },
  
   ]
+
+   
+
   return (
     <div className='md:p-10 sm:p-4 p-3 w-full '>
       <div className='xl:w-[90%] mx-auto sm:w-[90%]'>
@@ -43,7 +46,6 @@ const index = () => {
                     <td className="py-4 border-t md:text-sm  font-[500] text-[#01366a] px-2">{announcement.title}</td>
                     <td className="py-4 border-t px-2"><button className='border-2 rounded-md md:text-sm text-[#01366a] border-blue-900 py-2 px-4 font-[500] 
                     hover:bg-blue-900 hover:text-white transition-all'>View all Docs</button></td>
-                    
                   </tr>
                 )
               })}
