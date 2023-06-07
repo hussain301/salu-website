@@ -4,19 +4,19 @@ export default {
   type: 'document',
   fields: [
     {
-      title: 'Name',
-      name: 'name',
-      type: 'string',
+      title: 'PDf',
+      name: 'pdf',
+      type: 'file',
     },
     {
-      title: 'Designation',
-      name: 'designation',
-      type: 'string',
+      title: 'Docx',
+      name: 'docx',
+      type: 'file',
     },
     {
-      title: 'Email',
-      name: 'email',
-      type: 'string',
+      title: 'PPT',
+      name: 'ppt',
+      type: 'file',
     },
   ],
 }

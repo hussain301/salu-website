@@ -4,7 +4,7 @@ export default {
   title: 'All Announcements',
   fields: [
     {
-      name: 'titleOfAnnouncement',
+      name: 'title',
       type: 'string',
       title: 'Title of the Announcement',
     },
@@ -32,30 +32,11 @@ export default {
     {
       name: 'pdf',
       type: 'file',
-
-      validation: (Rule) => {
-        Rule.required().custom((file) => {
-          if (!file || !file.asset || !file.asset._ref) {
-            // No file has been uploaded
-            return 'Please upload a file'
-          }
-          const {_type, _ref} = file.asset
-          if (_type !== 'sanity.fileAsset') {
-            // Uploaded file is not a file asset
-            return 'Please upload a file'
-          }
-          const mimeType = file.asset.mimeType
-          if (mimeType !== 'application/pdf') {
-            // Uploaded file is not a PDF
-            return 'Only PDF files are allowed'
-          }
-          return true
-        })
-      },
-
+      accept: '.pdf',
       title:
         'only upload pdf if you have pdf to upload else leave it blank and also check the box above',
     },
+
     {
       name: 'isLink',
       type: 'boolean',

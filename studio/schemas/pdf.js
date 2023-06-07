@@ -4,7 +4,6 @@ export default {
   accept: '.pdf',
   type: 'document',
   fields: [
-    
     {
       name: 'description',
       type: 'string',
