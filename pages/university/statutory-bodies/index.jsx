@@ -1,7 +1,7 @@
 import React from "react";
 import { Overlay } from "../../../components";
 import Table from "./table";
-import data from "./data";
+import data from "../../../data/tableData";
 
 const index = () => {
   return (
