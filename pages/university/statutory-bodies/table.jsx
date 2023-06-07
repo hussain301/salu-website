@@ -1,6 +1,6 @@
 import React from "react";
 
-const Table = ({ data }) => {
+const Table = ({ data = null}) => {
   return (
     <div className="flex flex-col">
       <div className="-m-1.5 overflow-x-auto">
@@ -25,7 +25,7 @@ const Table = ({ data }) => {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200 ">
-                {data.map((item, index) => (
+                {data?.map((item, index) => (
                   <tr key={index}>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 ">
                       {item.name}
