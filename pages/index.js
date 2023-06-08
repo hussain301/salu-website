@@ -55,6 +55,6 @@ export const getStaticProps = async () => {
       phdTeachers,
       announcements, // Passing PhD faculty data to the component as prop
     },
-    revalidate: 60 * 1440, // Setting revalidation time to 24 hours (60 minutes * 1440 minutes = 24 hours)
+    revalidate: 60, // Setting revalidation time to 24 hours (60 minutes * 1440 minutes = 24 hours)
   };
 };
