@@ -14,10 +14,12 @@ import AnnoucencementRow from "./announcement/AnnoucencementRow";
 import Annoucement from "./announcement/Annoucement";
 import Heading from "./helper/Heading";
 import Overlay from "./helper/Overlay";
+import Team from "./Team";
 
 export {
   Hero,
   Annoucement,
+  Team,
   Vcmsg,
   Statistic,
   Carousel,

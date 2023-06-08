@@ -21,12 +21,12 @@ export const menu = [
       {
         isMultiLinks: false,
         name: "Vision & Mission",
-        link: "/university/about",
+        link: "/university/about/#vision",
       },
-      { isMultiLinks: false, name: "Aims and Objectives", link: "/" },
+      { isMultiLinks: false, name: "Aims and Objectives", link: "/university/about/#vision" },
       { isMultiLinks: false, name: "Statutory Bodies", link: "/university/statutory-bodies/" },
-      { isMultiLinks: false, name: "SALU Alumni", link: "/" },
-      { isMultiLinks: false, name: "Media Section-SALU", link: "/" },
+      { isMultiLinks: false, name: "SALU Alumni", link: "/university/alumni" },
+      { isMultiLinks: false, name: "Media Section-SALU", link: "/university/media-section" },
       {
         isMultiLinks: true,
         name: "Sports Section",

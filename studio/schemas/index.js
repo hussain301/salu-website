@@ -5,6 +5,7 @@ import pdf from './pdf'
 import VcMessage from './VcMessage'
 import PgsInfo from './PgsInfo'
 import Announcements from './Announcements'
+import MediaTeam from './MediaTeam'
 export const schemaTypes = [
   Announcements,
   VcMessage,
@@ -13,4 +14,5 @@ export const schemaTypes = [
   PgsInfo,
   PhdFaculty,
   Events,
+  MediaTeam,
 ]

@@ -33,7 +33,7 @@ const index = () => {
   ];
 
   return (
-    <div className="leading-6 ">
+    <div className="leading-6 scroll-smooth">
       <Overlay url="/hero.png" text="about us" />
       <div className="container mt-10 p-5">
         <p>
@@ -81,7 +81,7 @@ const index = () => {
         </p>
       </div>
 
-      <div className="bg-headingPrimary/30 md:p-10">
+      <div id="vision" className="bg-headingPrimary/30 md:p-10">
         <div className="container grid lg:grid-cols-3 gap-12 p-5">
           {missionVision.map((item, index) => (
             <ul key={index} className="px-10">
