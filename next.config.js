@@ -3,5 +3,5 @@ const nextConfig = {
   reactStrictMode: true,
   optimizeFonts: true,
   swcMinify: true,
-}
-module.exports = nextConfig
+};
+module.exports = nextConfig;

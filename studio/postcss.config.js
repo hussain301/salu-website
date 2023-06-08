@@ -1,17 +1,12 @@
- module.exports = {
+module.exports = {
   plugins: {
-   tailwindcss: {
-      content: [
-        "./index.html",
-        "./src/**/*.{vue,js,ts,jsx,tsx}",
-      ],
+    tailwindcss: {
+      content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
       theme: {
         extend: {},
       },
-      plugins: [
-        
-      ],
+      plugins: [],
     },
     autoprefixer: {},
   },
- }
+}

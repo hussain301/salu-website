@@ -5,4 +5,14 @@ import pdf from './pdf'
 import VcMessage from './VcMessage'
 import PgsInfo from './PgsInfo'
 import Announcements from './Announcements'
-export const schemaTypes = [Announcements, VcMessage, ConferenceWorkshop, pdf, PgsInfo, PhdFaculty, Events]
+import MediaTeam from './MediaTeam'
+export const schemaTypes = [
+  Announcements,
+  VcMessage,
+  ConferenceWorkshop,
+  pdf,
+  PgsInfo,
+  PhdFaculty,
+  Events,
+  MediaTeam,
+]
