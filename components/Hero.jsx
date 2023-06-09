@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Alexandria,PT_Serif } from "next/font/google";
+import { Alexandria, PT_Serif } from "next/font/google";
 import { motion } from "framer-motion";
 
 const fontAlexandria = Alexandria({
@@ -13,7 +13,6 @@ const fontPTSerif = PT_Serif({
   style: ["normal"],
   subsets: ["latin-ext"],
 });
-
 
 const Hero = () => {
   return (

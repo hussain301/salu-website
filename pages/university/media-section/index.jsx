@@ -1,44 +1,42 @@
 import React from "react";
 import { Overlay } from "../../../components";
 import Button from "../../../components/helper/Button";
-import {Team} from '../../../components'
+import { Team } from "../../../components";
 import Link from "next/link";
 
 const index = () => {
-
-    const teamData = [
-        {
-            name: 'Prof. Dr, Taj Muhammad Lashari',
-            designation: 'Director',
-            image:'/MediaTeam/Taj-Muhammad.png',
-        },
-        {
-            name:'Mr. Irfan Ali Phulpoto',
-            designation:'Public Relation Officer',
-            image:'/MediaTeam/Irfan-Ali-Phulpoto.jpg',
-        },
-        {
-            name:'Syed Manzar Abbas Zaidi',
-            designation:'computer operator',
-            image:'/MediaTeam/Syed-Manzar-Abbas-Zaidi.jpg',
-        },
-        {
-name:'Mr. Sahab Khan Shaikh',
-designation:'Reporter',
-image:'/MediaTeam/Sahib-Khan-Shaikh.jpg',
-        },
-        {
-            name: 'Mr. Ghulam Raza Bhutto',
-            designation: 'Photographer',
-            image:'/MediaTeam/Ghulam-Raza-Bhutto.jpg',
-        },
-        {
-            name:'Mr. Ghulam Sarwar Bhutto',
-            designation:'Photographer',
-            image:'/MediaTeam/ghulam sarwar.jpg',
-        },
-
-    ]
+  const teamData = [
+    {
+      name: "Prof. Dr, Taj Muhammad Lashari",
+      designation: "Director",
+      image: "/MediaTeam/Taj-Muhammad.png",
+    },
+    {
+      name: "Mr. Irfan Ali Phulpoto",
+      designation: "Public Relation Officer",
+      image: "/MediaTeam/Irfan-Ali-Phulpoto.jpg",
+    },
+    {
+      name: "Syed Manzar Abbas Zaidi",
+      designation: "computer operator",
+      image: "/MediaTeam/Syed-Manzar-Abbas-Zaidi.jpg",
+    },
+    {
+      name: "Mr. Sahab Khan Shaikh",
+      designation: "Reporter",
+      image: "/MediaTeam/Sahib-Khan-Shaikh.jpg",
+    },
+    {
+      name: "Mr. Ghulam Raza Bhutto",
+      designation: "Photographer",
+      image: "/MediaTeam/Ghulam-Raza-Bhutto.jpg",
+    },
+    {
+      name: "Mr. Ghulam Sarwar Bhutto",
+      designation: "Photographer",
+      image: "/MediaTeam/ghulam sarwar.jpg",
+    },
+  ];
 
   return (
     <div>
@@ -87,46 +85,58 @@ image:'/MediaTeam/Sahib-Khan-Shaikh.jpg',
           covers social media through Facebook Page and WhatsApp.
           <br />
           <strong className="block">Vision of Media Section</strong>
-          <span>Our vision is to be the mouthpiece of the University by highlighting all the leading events, occasions, visits and academic as well as research activities to the print, electronic and social media to create soft, brighter and better image of the University with dedication, commitment and sincerity.</span>
-        
-        <strong className="block">
-            Aims & Objectives
-        </strong>
-        <span className="block px-5">
-To be the mouthpiece of the University.
-To give proper media coverage to all the events, occasions, visits, research as well as academic activities. <br />
-To create soft, brighter and better image of the University through print, electronic and social media. <br />
-To keep and maintain the record of all the events. <br />
-To keep vigilant eye on every news regarding the University and defend the University (in case of any false news published against the University). <br />
-To represent the University at various platforms. <br />
-To promote the aims and objectives of the University through media coverage. <br />
-To advance the academic excellence of the University through print, electronic and social media to garner public support and appreciation. <br />
-        </span>
+          <span>
+            Our vision is to be the mouthpiece of the University by highlighting
+            all the leading events, occasions, visits and academic as well as
+            research activities to the print, electronic and social media to
+            create soft, brighter and better image of the University with
+            dedication, commitment and sincerity.
+          </span>
+          <strong className="block">Aims & Objectives</strong>
+          <span className="block px-5">
+            To be the mouthpiece of the University. To give proper media
+            coverage to all the events, occasions, visits, research as well as
+            academic activities. <br />
+            To create soft, brighter and better image of the University through
+            print, electronic and social media. <br />
+            To keep and maintain the record of all the events. <br />
+            To keep vigilant eye on every news regarding the University and
+            defend the University (in case of any false news published against
+            the University). <br />
+            To represent the University at various platforms. <br />
+            To promote the aims and objectives of the University through media
+            coverage. <br />
+            To advance the academic excellence of the University through print,
+            electronic and social media to garner public support and
+            appreciation. <br />
+          </span>
         </p>
         <p className="mt-7 mb-3">
-            <strong>
-                For Further Contact /NEWS / Quarries Please do not hesitate to contact on following:
-            </strong>
+          <strong>
+            For Further Contact /NEWS / Quarries Please do not hesitate to
+            contact on following:
+          </strong>
         </p>
         <div className="container bg-gray-300 px-8 py-5">
-            <p>
-                <span className="block">Prof. Dr. Taj Muhammad Lashari</span>  
-                <span className="block">Director Media & Public Relations</span>  
-                <span className="block">Shah Abdul Latif University (SALU), Khairpur</span>  
-                <span className="block">Phone: +92 243 552 261</span>  
-                <span className="block">Cell: +92 307 3616422</span>  
-                <Link className="block" href='mailto:pro@salu.edu.pk '>
-                   Email:
-                    <span className="text-headingPrimary text-lg font-semibold">
-                        pro@salu.edu.pk 
-                    </span>
-                    </Link>  
-            </p>
+          <p>
+            <span className="block">Prof. Dr. Taj Muhammad Lashari</span>
+            <span className="block">Director Media & Public Relations</span>
+            <span className="block">
+              Shah Abdul Latif University (SALU), Khairpur
+            </span>
+            <span className="block">Phone: +92 243 552 261</span>
+            <span className="block">Cell: +92 307 3616422</span>
+            <Link className="block" href="mailto:pro@salu.edu.pk ">
+              Email:
+              <span className="text-headingPrimary text-lg font-semibold">
+                pro@salu.edu.pk
+              </span>
+            </Link>
+          </p>
         </div>
       </div>
       <div className="bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900">
-        
-      <Team teamData={teamData}/>
+        <Team teamData={teamData} />
       </div>
     </div>
   );

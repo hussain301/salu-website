@@ -1,10 +1,26 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const SubDropDownMenu = (props) => {
+  const [isMobile, setIsMobile] = useState(false);
+   useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 600);
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <div className="hs-dropdown  relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
-      <button
+      <Link
+      target={isMobile ? "_self" : "_blank"}
+        href={isMobile ? '' : props.selfLink}
         type="button"
         className=" flex justify-between w-full items-center text-sm text-gray-900 rounded-md py-2 px-3 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 "
       >
@@ -24,14 +40,14 @@ const SubDropDownMenu = (props) => {
             strokeLinecap="round"
           ></path>
         </svg>
-      </button>
+      </Link>
 
       <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-2 bg-[#b9bbcc] sm:shadow-md rounded-lg p-2  before:absolute sm:border before:-right-5 before:top-0 before:h-full before:w-5 top-0 right-full !mx-[10px]">
         {props.subMenuContent.map((item, i) => (
           <Link
             key={i}
             className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-900 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 "
-            href="#"
+            href={item.link}
           >
             {item.name}
           </Link>

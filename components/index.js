@@ -15,6 +15,7 @@ import Annoucement from "./announcement/Annoucement";
 import Heading from "./helper/Heading";
 import Overlay from "./helper/Overlay";
 import Team from "./Team";
+import PageBoiler from "./helper/PageBoiler";
 
 export {
   Hero,
@@ -32,4 +33,5 @@ export {
   Model,
   Heading,
   Courses,
+  PageBoiler,
 };

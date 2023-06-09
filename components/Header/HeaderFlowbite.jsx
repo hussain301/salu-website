@@ -4,12 +4,14 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { menu } from "./menu";
 
+
 const links = [
   { name: "Home", link: "/" },
   { name: "About", link: "/university/about" },
   { name: "Apply Online", link: "/apply-online" },
 ];
 const HeaderFlowbite = () => {
+   
   return (
     <header className="relative text-[#a1a4bb] flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-[#151C55] text-sm py-4 ">
       <div className="flex gap-2 px-3 justify-between items-center text-lg font-medium uppercase">
@@ -90,12 +92,13 @@ const HeaderFlowbite = () => {
                   initial={{ y: 20, opacity: 0 }}
                   animate={{ y: 0, opacity: 100 }}
                   transition={{ duration: 0.2, delay: 0.1 }}
-                  className="hs-dropdown [--strategy:static]  sm:[--strategy:fixed] [--adaptive:none] "
+                  className="hs-dropdown [--strategy:static]  sm:[--strategy:fixed] [--adaptive:none]  sm:[--trigger:hover]"
                 >
-                  <button
+                  <Link
+                   href='/'
                     id="hs-mega-menu-basic-dr"
                     type="button"
-                    className="flex justify-between items-center w-full text-[#a1a4bb] border-t border-blue-900 sm:border-none hover:text-blue-600 p-2 px-5 sm:p-0 sm:hover:bg-transparent hover:bg-gray-100 group transition-all duration-300 font-medium  "
+                    className="flex  justify-between items-center w-full text-[#a1a4bb] border-t border-blue-900 sm:border-none hover:text-blue-600 p-2 px-5 sm:p-0 sm:hover:bg-transparent hover:bg-gray-100 group transition-all duration-300 font-medium  "
                   >
                     {item.name}
                     <svg
@@ -113,7 +116,7 @@ const HeaderFlowbite = () => {
                         strokeLinecap="round"
                       ></path>
                     </svg>
-                  </button>
+                  </Link>
                   {/* drop down Menu  */}
                   <DropDownPre menu={item.link} />
                 </motion.div>

@@ -1,7 +1,7 @@
 import React from "react";
 export const Statistic = () => {
   return (
-    <section  className="text-gray-600 bg-orange-500/75 rounded-sm container mx-auto body-font">
+    <section className="text-gray-600 bg-orange-500/75 rounded-sm container mx-auto body-font">
       <div className="container px-5 py-14 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
           <h1 className="sm:text-3xl text-2xl font-medium title-font m text-[#01366a]">

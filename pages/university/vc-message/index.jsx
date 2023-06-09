@@ -38,6 +38,6 @@ export const getStaticProps = async () => {
     props: {
       fetchVC: fetchVC,
     },
-    revalidate: 60 , //that is 24 hours
+    revalidate: 60, //that is 24 hours
   };
 };

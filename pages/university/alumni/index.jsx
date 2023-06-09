@@ -1,31 +1,17 @@
 import Link from "next/link";
 import React from "react";
+import { PageBoiler } from "../../../components";
 
 const index = () => {
   return (
     <div className="container rounded-md my-10">
-      <h1 className="md:text-5xl bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 bg-clip-text text-transparent  text-3xl text-center font-bold capitalize ">
-        Shah Abdul Latif University Alumni Association (SALUAA)
-      </h1>
-
-      <div className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 my-10 p-10 flex flex-col justify-center items-center space-y-8">
-        <img
-          className="rounded-md"
-          src="https://salu.edu.pk/wp-content/uploads/2021/03/Qasid-Hussain.png"
-          alt="Prof. Dr. Qasid Hussain Mallah"
-        />
-        <p className="text-center leading-loose">
-          <span className="block text-white text-xl font-bold">
-            Prof. Dr. Qasid Hussain Mallah
-          </span>
-          <span className="block text-white text-xl font-medium">
-            Director, Shah Abdul Laatif University Alumni Association (SALUAA)
-          </span>
-          <span className="block text-white text-xl ">
-            director.alumni@salu.edu.pk
-          </span>
-        </p>
-      </div>
+      <PageBoiler
+        title="Shah Abdul Latif University Alumni Association (SALUAA)"
+        name="Prof. Dr. Qasid Hussain Mallah"
+        designation="Director, Shah Abdul Laatif University Alumni Association (SALUAA)"
+        email="director.alumni@salu.edu.pk"
+        image="https://salu.edu.pk/wp-content/uploads/2021/03/Qasid-Hussain.png"
+      />
 
       <div>
         <p className="leading-loose px-5">

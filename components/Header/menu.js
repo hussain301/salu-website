@@ -3,35 +3,47 @@ export const menu = [
     name: "University",
     link: [
       {
-        isMultiLinks: false,
         name: "VC Message",
         link: "/university/vc-message",
       },
       {
-        isMultiLinks: false,
+        
         name: "VC Secretariat",
         link: "/university/vice-chancellors-secretariat",
       },
-      { isMultiLinks: false, name: "Ghotki Campus", link: "/" },
+      {  name: "Ghotki Campus", link: "/" },
       {
-        isMultiLinks: false,
+        
         name: "At a Galance",
         link: "/university/university-at-a-glance",
       },
       {
-        isMultiLinks: false,
+       
         name: "Vision & Mission",
         link: "/university/about/#vision",
       },
-      { isMultiLinks: false, name: "Aims and Objectives", link: "/university/about/#vision" },
-      { isMultiLinks: false, name: "Statutory Bodies", link: "/university/statutory-bodies/" },
-      { isMultiLinks: false, name: "SALU Alumni", link: "/university/alumni" },
-      { isMultiLinks: false, name: "Media Section-SALU", link: "/university/media-section" },
+      {
+       
+        name: "Aims and Objectives",
+        link: "/university/about/#vision",
+      },
+      {
+       
+        name: "Statutory Bodies",
+        link: "/university/statutory-bodies/",
+      },
+      { name: "SALU Alumni", link: "/university/alumni" },
+      {
+       
+        name: "Media Section-SALU",
+        link: "/university/media-section",
+      },
       {
         isMultiLinks: true,
+        selfLink:'/university/sports-section',
         name: "Sports Section",
         link: [
-          { name: "Kamyab Jawan Talent Hunt Youth Sports League", link: "/" },
+          { name: "Kamyab Jawan Talent Hunt Youth Sports League", link: "/university/sports-section/intro" },
         ],
       },
     ],
@@ -41,6 +53,7 @@ export const menu = [
     link: [
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "Arts & Languages",
         link: [
           { name: "English Language & literature", link: "/" },
@@ -51,6 +64,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "Education",
         link: [
           { name: "Teacher Education", link: "/" },
@@ -59,11 +73,13 @@ export const menu = [
       },
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "Law",
         link: [{ name: "SZAB, School of Law", link: "/" }],
       },
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "Physical Sciences",
         link: [
           { name: "Archaology", link: "/" },
@@ -76,6 +92,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "Management Sciences",
         link: [
           { name: "Business Administration", link: "/" },
@@ -85,6 +102,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "Social Sciences",
         link: [
           { name: "Economics", link: "/" },
@@ -101,6 +119,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "Natural Sciences",
         link: [
           { name: "Biochemistry", link: "/" },
@@ -118,6 +137,7 @@ export const menu = [
     link: [
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "Admissions",
         link: [
           { name: "Apply for undergraduate", link: "/" },
@@ -125,22 +145,22 @@ export const menu = [
         ],
       },
       {
-        isMultiLinks: false,
+       
         name: "Precedure & Eligibility Criteria",
         link: "/",
       },
-      { isMultiLinks: false, name: "Scholarships", link: "/" },
-      { isMultiLinks: false, name: "Semester Rules & Regulations", link: "/" },
+      { name: "Scholarships", link: "/" },
+      { name: "Semester Rules & Regulations", link: "/" },
     ],
   },
   {
     name: "Examination",
     link: [
-      { isMultiLinks: false, name: "Online Certificate", link: "/" },
-      { isMultiLinks: false, name: "Online Examination Form", link: "/" },
-      { isMultiLinks: false, name: "Semester Online Exam Form", link: "/" },
+      { name: "Online Certificate", link: "/" },
+      { name: "Online Examination Form", link: "/" },
+      { name: "Semester Online Exam Form", link: "/" },
       {
-        isMultiLinks: false,
+       
         name: "Improver Failure Semester Form",
         link: "/",
       },
@@ -151,6 +171,7 @@ export const menu = [
     link: [
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "QEC",
         link: [
           { name: "Mission & Vision", link: "/" },
@@ -161,6 +182,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "ORIC",
         link: [
           { name: "Welcome", link: "/" },
@@ -178,6 +200,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "Directorate of PGS",
         link: [
           { name: "Online Admission for Postgraduate", link: "/" },
@@ -193,6 +216,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
+        selfLink:'',
         name: "CBC",
         link: [
           { name: "Herbarium", link: "/" },
@@ -200,29 +224,29 @@ export const menu = [
           { name: "CBC-Reasearch", link: "/" },
         ],
       },
-      { isMultiLinks: false, name: "DPRI", link: "/" },
+      { name: "DPRI", link: "/" },
     ],
   },
   {
     name: "Chair",
     link: [
-      { isMultiLinks: false, name: "Benazir Chair", link: "/" },
-      { isMultiLinks: false, name: "Rozay Dhani", link: "/" },
-      { isMultiLinks: false, name: "Sachal Chair", link: "/" },
-      { isMultiLinks: false, name: "Shaikh Ayaz", link: "/" },
-      { isMultiLinks: false, name: "Tanveer corner", link: "/" },
+      { name: "Benazir Chair", link: "/" },
+      { name: "Rozay Dhani", link: "/" },
+      { name: "Sachal Chair", link: "/" },
+      { name: "Shaikh Ayaz", link: "/" },
+      { name: "Tanveer corner", link: "/" },
     ],
   },
   {
     name: "Journals",
     link: [
-      { isMultiLinks: false, name: "Ancient Sindh", link: "/" },
-      { isMultiLinks: false, name: "ALMAS", link: "/" },
-      { isMultiLinks: false, name: "Biyan-ul-Hikmah", link: "/" },
-      { isMultiLinks: false, name: "IJCET", link: "/" },
-      { isMultiLinks: false, name: "CER", link: "/" },
-      { isMultiLinks: false, name: "CER", link: "/" },
-      { isMultiLinks: false, name: "SAJMAS", link: "/" },
+      { name: "Ancient Sindh", link: "/" },
+      { name: "ALMAS", link: "/" },
+      { name: "Biyan-ul-Hikmah", link: "/" },
+      { name: "IJCET", link: "/" },
+      { name: "CER", link: "/" },
+      { name: "CER", link: "/" },
+      { name: "SAJMAS", link: "/" },
     ],
   },
 ];

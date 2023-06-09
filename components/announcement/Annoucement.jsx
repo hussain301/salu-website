@@ -7,7 +7,7 @@ import Pagination from "../helper/Pagination";
 import { getFile } from "@sanity/asset-utils";
 
 const Annoucement = ({ announcements }) => {
-  console.log(announcements);
+  
 
   const itemsPerPage = 5;
   const [showItems, setShowItems] = useState(

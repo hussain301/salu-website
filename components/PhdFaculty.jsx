@@ -49,7 +49,6 @@ const PhdFaculty = ({ teachers }) => {
           {teachers.map((teacher, index) => {
             return (
               <SwiperSlide
-               
                 className="select-none cursor-pointer flex items-center"
                 key={index}
               >

@@ -21,7 +21,6 @@ import {
 
 import Courses from "../components/courses/Courses"; // Importing Courses component for displaying courses
 
-import Link from "next/link";
 export default function Home(props = null) {
   return (
     <div className="snap-y scroll-smooth snap-mandatory">
