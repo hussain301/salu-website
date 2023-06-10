@@ -6,7 +6,7 @@ const DropDownPre = (props) => {
   return (
     <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.5ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 z-10 bg-[#a1a4bb] sm:shadow-md rounded-lg p-2  before:absolute top-full before:-top-5 before:left-0 before:w-full before:h-5 hidden">
       {props.menu.map(
-        (item, i) => 
+        (item, i) =>
           !item?.isMultiLinks && (
             <Link
               key={i}

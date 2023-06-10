@@ -1,34 +1,32 @@
-import React from 'react'
+import React from "react";
 
-const PageBoiler = props => {
+const PageBoiler = (props) => {
   return (
     <>
-    <h1 className="md:text-5xl bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 bg-clip-text text-transparent  text-3xl text-center font-bold capitalize ">
-       {props.title}
+      <h1 className="md:text-5xl py-3 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 bg-clip-text text-transparent  text-3xl text-center font-bold capitalize ">
+        {props.title}
       </h1>
 
       <div className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 my-10 p-10 flex flex-col justify-center items-center space-y-8">
         <img
-        width={236}
-        height={264}
+          width={236}
+          height={264}
           className="rounded-md"
           src={props.image}
           alt={props.name}
         />
         <p className="text-center leading-loose">
           <span className="block text-white text-xl font-bold">
-          {props.name}
+            {props.name}
           </span>
           <span className="block text-white text-xl font-medium">
             {props.designation}
           </span>
-          <span className="block text-white text-xl ">
-            {props.email}
-          </span>
+          <span className="block text-white text-xl ">{props.email}</span>
         </p>
       </div>
-      </>
-  )
-}
+    </>
+  );
+};
 
-export default PageBoiler
+export default PageBoiler;

@@ -7,43 +7,40 @@ export const menu = [
         link: "/university/vc-message",
       },
       {
-        
         name: "VC Secretariat",
         link: "/university/vice-chancellors-secretariat",
       },
-      {  name: "Ghotki Campus", link: "/" },
+      { name: "Ghotki Campus", link: "/" },
       {
-        
         name: "At a Galance",
         link: "/university/university-at-a-glance",
       },
       {
-       
         name: "Vision & Mission",
         link: "/university/about/#vision",
       },
       {
-       
         name: "Aims and Objectives",
         link: "/university/about/#vision",
       },
       {
-       
         name: "Statutory Bodies",
         link: "/university/statutory-bodies/",
       },
       { name: "SALU Alumni", link: "/university/alumni" },
       {
-       
         name: "Media Section-SALU",
         link: "/university/media-section",
       },
       {
         isMultiLinks: true,
-        selfLink:'/university/sports-section',
+        selfLink: "/university/sports-section",
         name: "Sports Section",
         link: [
-          { name: "Kamyab Jawan Talent Hunt Youth Sports League", link: "/university/sports-section/intro" },
+          {
+            name: "Kamyab Jawan Talent Hunt Youth Sports League",
+            link: "/university/sports-section/intro",
+          },
         ],
       },
     ],
@@ -53,18 +50,24 @@ export const menu = [
     link: [
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "/faculties/arts-languages",
         name: "Arts & Languages",
         link: [
-          { name: "English Language & literature", link: "/" },
-          { name: "Department of Sindhi", link: "/" },
+          {
+            name: "English Language & literature",
+            link: "/faculties/arts-languages/english-language-and-literature",
+          },
+          {
+            name: "Department of Sindhi",
+            link: "/faculties/arts-languages/department-of-sindhi",
+          },
           { name: "Department of Urdu", link: "/" },
           { name: "Foreign Lnaguages", link: "/" },
         ],
       },
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "Education",
         link: [
           { name: "Teacher Education", link: "/" },
@@ -73,13 +76,13 @@ export const menu = [
       },
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "Law",
         link: [{ name: "SZAB, School of Law", link: "/" }],
       },
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "Physical Sciences",
         link: [
           { name: "Archaology", link: "/" },
@@ -92,7 +95,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "Management Sciences",
         link: [
           { name: "Business Administration", link: "/" },
@@ -102,7 +105,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "Social Sciences",
         link: [
           { name: "Economics", link: "/" },
@@ -119,7 +122,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "Natural Sciences",
         link: [
           { name: "Biochemistry", link: "/" },
@@ -137,7 +140,7 @@ export const menu = [
     link: [
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "Admissions",
         link: [
           { name: "Apply for undergraduate", link: "/" },
@@ -145,7 +148,6 @@ export const menu = [
         ],
       },
       {
-       
         name: "Precedure & Eligibility Criteria",
         link: "/",
       },
@@ -160,7 +162,6 @@ export const menu = [
       { name: "Online Examination Form", link: "/" },
       { name: "Semester Online Exam Form", link: "/" },
       {
-       
         name: "Improver Failure Semester Form",
         link: "/",
       },
@@ -171,7 +172,7 @@ export const menu = [
     link: [
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "QEC",
         link: [
           { name: "Mission & Vision", link: "/" },
@@ -182,7 +183,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "ORIC",
         link: [
           { name: "Welcome", link: "/" },
@@ -200,7 +201,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "Directorate of PGS",
         link: [
           { name: "Online Admission for Postgraduate", link: "/" },
@@ -216,7 +217,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
-        selfLink:'',
+        selfLink: "",
         name: "CBC",
         link: [
           { name: "Herbarium", link: "/" },

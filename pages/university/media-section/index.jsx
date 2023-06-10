@@ -135,9 +135,8 @@ const index = () => {
           </p>
         </div>
       </div>
-      <div className="bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900">
-        <Team teamData={teamData} />
-      </div>
+
+      <Team teamData={teamData} title="Our Team" />
     </div>
   );
 };

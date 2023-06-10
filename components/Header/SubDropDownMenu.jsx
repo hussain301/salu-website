@@ -3,24 +3,24 @@ import React, { useEffect, useState } from "react";
 
 const SubDropDownMenu = (props) => {
   const [isMobile, setIsMobile] = useState(false);
-   useEffect(() => {
+  useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 600);
     };
 
     handleResize();
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
   return (
     <div className="hs-dropdown  relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
       <Link
-      target={isMobile ? "_self" : "_blank"}
-        href={isMobile ? '' : props.selfLink}
+        target={isMobile ? "_self" : "_blank"}
+        href={isMobile ? "" : props.selfLink}
         type="button"
         className=" flex justify-between w-full items-center text-sm text-gray-900 rounded-md py-2 px-3 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 "
       >

@@ -7,8 +7,6 @@ import Pagination from "../helper/Pagination";
 import { getFile } from "@sanity/asset-utils";
 
 const Annoucement = ({ announcements }) => {
-  
-
   const itemsPerPage = 5;
   const [showItems, setShowItems] = useState(
     announcements.slice(0, itemsPerPage)

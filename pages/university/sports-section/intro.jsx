@@ -49,13 +49,18 @@ const intro = () => {
           </Button>
           <br />
           <div className="space-y-2 p-5 border-t border-r border-b border-gray-300 shadow-md">
-            <h2 className="text-blue-500 font-medium mb-2">Kamyab Jawan Program</h2>
-            <Button className='bg-orange-500'>
-              <Link href='/university/sports-section/target-impact'   >Target Impact</Link>
-             
+            <h2 className="text-blue-500 font-medium mb-2">
+              Kamyab Jawan Program
+            </h2>
+            <Button className="bg-orange-500">
+              <Link href="/university/sports-section/target-impact">
+                Target Impact
+              </Link>
             </Button>
-            <Button className='bg-orange-500'>
-              <Link href='/university/sports-section/eligibiltiy-kamyab-jawan-program'>Eligibility-Kamyab Jawan Program</Link>
+            <Button className="bg-orange-500">
+              <Link href="/university/sports-section/eligibiltiy-kamyab-jawan-program">
+                Eligibility-Kamyab Jawan Program
+              </Link>
             </Button>
           </div>
         </div>
