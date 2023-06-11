@@ -1,10 +1,10 @@
 import React from "react";
-import { PageBoiler } from "../../../components";
+import { PageProfileBoiler } from "../../../components";
 
 const index = () => {
   return (
     <div className="container rounded-md my-10">
-      <PageBoiler
+      <PageProfileBoiler
         title="sports section"
         image="https://salu.edu.pk/wp-content/uploads/2021/08/DSC_0011-e1628437640471.jpg"
         name="Mr. Muhammad Murad Pirzada"

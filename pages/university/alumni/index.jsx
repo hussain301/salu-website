@@ -1,11 +1,11 @@
 import Link from "next/link";
 import React from "react";
-import { PageBoiler } from "../../../components";
+import {PageProfileBoiler } from "../../../components";
 
 const index = () => {
   return (
     <div className="container rounded-md my-10">
-      <PageBoiler
+      <PageProfileBoiler
         title="Shah Abdul Latif University Alumni Association (SALUAA)"
         name="Prof. Dr. Qasid Hussain Mallah"
         designation="Director, Shah Abdul Laatif University Alumni Association (SALUAA)"
