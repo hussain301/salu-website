@@ -61,17 +61,17 @@ export const menu = [
             name: "Department of Sindhi",
             link: "/faculties/arts-languages/sindhi",
           },
-          { name: "Department of Urdu", link: "/" },
-          { name: "Foreign Lnaguages", link: "/" },
+          { name: "Department of Urdu", link: "/faculties/arts-languages/urdu" },
+          { name: "Foreign Lnaguages", link: "/faculties/arts-languages/foreign-languages" },
         ],
       },
       {
         isMultiLinks: true,
-        selfLink: "",
+        selfLink: "/faculties/education",
         name: "Education",
         link: [
-          { name: "Teacher Education", link: "/" },
-          { name: "Special Education", link: "/" },
+          { name: "Teacher Education", link: "/faculties/education/teacher-education" },
+          { name: "Special Education", link: "/faculties/education/special-education" },
         ],
       },
       {

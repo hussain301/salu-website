@@ -1,7 +1,5 @@
 import React from "react";
-import { Overlay } from "../../../components";
-import Button from "../../../components/helper/Button";
-import { Team } from "../../../components";
+import { Team, Button, Overlay } from "../../../components";
 import Link from "next/link";
 
 const index = () => {
@@ -72,17 +70,17 @@ const index = () => {
           SALUNI Newsletter, plays vital role in publication of every documents
           of the University ranging from Prospectus to Annual Reports etc.
           <br />
-          Media Section also highlights students&rsquo; participation in curricular
-          and co-curricular activities. It is the section, usually referred by
-          the students, parents, journalists and public for authentication of
-          information, confirmation of dates and official point of view of the
-          University. Thus, Media Section of Shah Abdul Latif University,
-          Khairpur is not limited to news alone, it has become an information
-          desk of the University and highly visited section of the University by
-          the students and faculty alike. All this have been possible with the
-          kind and benign patronage of the Vice Chancellor who allows this
-          section to work independently and with ease. The section also actively
-          covers social media through Facebook Page and WhatsApp.
+          Media Section also highlights students&rsquo; participation in
+          curricular and co-curricular activities. It is the section, usually
+          referred by the students, parents, journalists and public for
+          authentication of information, confirmation of dates and official
+          point of view of the University. Thus, Media Section of Shah Abdul
+          Latif University, Khairpur is not limited to news alone, it has become
+          an information desk of the University and highly visited section of
+          the University by the students and faculty alike. All this have been
+          possible with the kind and benign patronage of the Vice Chancellor who
+          allows this section to work independently and with ease. The section
+          also actively covers social media through Facebook Page and WhatsApp.
           <br />
           <strong className="block">Vision of Media Section</strong>
           <span>

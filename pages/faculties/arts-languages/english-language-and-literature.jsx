@@ -1,5 +1,5 @@
 import React from "react";
-import { PageBoiler, Team } from "../../../components";
+import { PageBoiler, PageProfileBoiler, Team } from "../../../components";
 
 const englishLanguageAndLiterature = () => {
   const faculty = [
@@ -73,10 +73,10 @@ const englishLanguageAndLiterature = () => {
 
   return (
     <div className="container rounded-md my-10">
-      <PageBoiler
+      <PageProfileBoiler
         title="INSTITUTE OF ENGLISH LANGUAGE AND LITERATURE"
         name="Prof Dr Zulfiqar Ali Shah"
-        image="https://salu.edu.pk/wp-content/uploads/2021/07/IMG-20210106-WA0011-242x300.jpg"
+        image="/Faculties/arts-lang/EnglishTeam/Zulfiqar.jpg"
         designation="Director, Institute of English Language and Literature"
         email=""
       />
@@ -225,11 +225,11 @@ const englishLanguageAndLiterature = () => {
               Institute of English Language and Literature. This journal is
               recognized by HEC in the year 2009 and since then it is fully
               funded by Higher Education Commission of Pakistan (HEC) for its
-              publication. This falls in the &rsquo;Y&rsquo; category of HEC recognized
-              national journals. Total 21 volumes have been published so for.
-              This is also indexed by the international database agencies such
-              as MLA, Thomson Reuters, Linguistics Abstracts Online and Ulrich
-              international.
+              publication. This falls in the &rsquo;Y&rsquo; category of HEC
+              recognized national journals. Total 21 volumes have been published
+              so for. This is also indexed by the international database
+              agencies such as MLA, Thomson Reuters, Linguistics Abstracts
+              Online and Ulrich international.
             </p>
           </div>
           <div className="my-8">

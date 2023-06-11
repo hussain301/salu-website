@@ -16,6 +16,8 @@ import Heading from "./helper/Heading";
 import Overlay from "./helper/Overlay";
 import Team from "./Team";
 import PageBoiler from "./helper/PageBoiler";
+import PageProfileBoiler from "./helper/PageProfileBoiler";
+import Button from "./helper/Button";
 
 export {
   Hero,
@@ -32,6 +34,8 @@ export {
   VirtualTour,
   Model,
   Heading,
+  Button,
   Courses,
   PageBoiler,
+  PageProfileBoiler,
 };

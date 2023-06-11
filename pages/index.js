@@ -9,7 +9,8 @@ import {
   PhdFaculty, // Importing PhdFaculty component for displaying PhD faculty
   GoogleMap, // Importing GoogleMap component for displaying Google Maps
   VirtualTour, // Importing VirtualTour component for displaying a virtual tour
-  Model, // Importing Model component (not used in this code)
+  Model,
+  Courses, // Importing Model component (not used in this code)
 } from "../components";
 
 import {
@@ -19,7 +20,7 @@ import {
   fetchVcMsg, // Importing fetchVcMsg utility function to fetch VC message
 } from "../utils";
 
-import Courses from "../components/courses/Courses"; // Importing Courses component for displaying courses
+// Importing Courses component for displaying courses
 
 export default function Home(props = null) {
   return (

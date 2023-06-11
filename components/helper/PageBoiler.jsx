@@ -1,32 +1,24 @@
 import React from "react";
+import Heading from "./Heading";
 
-const PageBoiler = (props) => {
+const PageBoiler = ({pageContent}) => {
   return (
-    <>
-      <h1 className="md:text-5xl py-3 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 bg-clip-text text-transparent  text-3xl text-center font-bold capitalize ">
-        {props.title}
-      </h1>
-
-      <div className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 my-10 p-10 flex flex-col justify-center items-center space-y-8">
-        <img
-          width={236}
-          height={264}
-          className="rounded-md"
-          src={props.image}
-          alt={props.name}
-        />
-        <p className="text-center leading-loose">
-          <span className="block text-white text-xl font-bold">
-            {props.name}
-          </span>
-          <span className="block text-white text-xl font-medium">
-            {props.designation}
-          </span>
-          <span className="block text-white text-xl ">{props.email}</span>
-        </p>
+   <div className="md:mx-28 mx-5">
+        {pageContent.map((item, index) => (
+          <div key={index}>
+            <h2 className="text-lg text-headingPrimary mb-1">
+              <strong>{item.title}</strong>
+            </h2>
+            <p dir="ltr" className={`${item.title==='PROGRAMS OFFERD' ? 'mx-5':''} mb-4`}>
+            {item.text.map((text, index) => (
+           <> <span key={index}>  {text} </span><br /></>
+            ))}</p>
+          </div>
+        ))}
       </div>
-    </>
-  );
+    )
+     
+        
 };
 
 export default PageBoiler;

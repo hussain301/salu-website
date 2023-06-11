@@ -5,7 +5,12 @@ const index = () => {
   return (
     <>
       <div className=" space-y-2 px-14 py-5 bg-gray-100 sm:ml-10 mb-10">
-        <Heading classNames="my-5" text="vice chancellor's secretariat" />
+        <h1
+          className={`my-5 text-3xl font-bold  uppercase text-headingPrimary`}
+        >
+          vice chancellor's secretariat
+        </h1>
+
         <h2 className="font-bold text-lg">Vice Chancellor</h2>
         <p className="font-semibold text-headingPrimary">
           Prof. Dr. Khalil Ahmed Ibupoto

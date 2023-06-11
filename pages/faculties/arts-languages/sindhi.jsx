@@ -1,5 +1,5 @@
 import React from "react";
-import { PageBoiler, Team } from "../../../components";
+import { PageBoiler, PageProfileBoiler, Team } from "../../../components";
 
 const departmentOfSindhi = () => {
   const teamData = [
@@ -25,34 +25,33 @@ const departmentOfSindhi = () => {
 
   return (
     <div className="container my-10">
-      <PageBoiler
+      <PageProfileBoiler
         title="Department of Sindhi"
         name="Dr. Rahim Bux Mahar"
         designation="Director, Department of Sindhi"
         email=""
         image="/Faculties/arts-lang/EnglishTeam/noImage.jpg"
       />
-
       <dir className="md:mx-28 px-5">
         <h2 className="text-lg text-headingPrimary mb-1">
           <strong>Introduction</strong>
         </h2>
         <p className="mb-4">
           The Department of Sindhi was established in the year of 1990. It
-          offers B.S (Four &ndash;year program) and M.A Degree Courses. B.S (Four Year
-          Program) and M.A Classes are conducted in the morning shift. Facility
-          of Seminar Library is also available. Literary Meetings are organized
-          regularly. The Department has published fifteen issues of Research
-          Journal Bhittai including Tanveer Abbasi number and Shaikh Ayaz
-          number. Thirty Eight scholars have been awarded degrees of M. Phil.
-          Students are encouraged to be involved in research and literary
-          activities. More than hundred monographs have been written on various
-          literary topics, by the students. The Department provides research
-          facilities to young scholars. This Department is actively involved to
-          protect and promote the culture, language, literature and venerated
-          tradition of Sindh, especially of Khairpur region. The Department is
-          not only providing general education and literature but also moral
-          education to the students for their character building.
+          offers B.S (Four &ndash;year program) and M.A Degree Courses. B.S
+          (Four Year Program) and M.A Classes are conducted in the morning
+          shift. Facility of Seminar Library is also available. Literary
+          Meetings are organized regularly. The Department has published fifteen
+          issues of Research Journal Bhittai including Tanveer Abbasi number and
+          Shaikh Ayaz number. Thirty Eight scholars have been awarded degrees of
+          M. Phil. Students are encouraged to be involved in research and
+          literary activities. More than hundred monographs have been written on
+          various literary topics, by the students. The Department provides
+          research facilities to young scholars. This Department is actively
+          involved to protect and promote the culture, language, literature and
+          venerated tradition of Sindh, especially of Khairpur region. The
+          Department is not only providing general education and literature but
+          also moral education to the students for their character building.
         </p>
         <h2 className="text-lg text-headingPrimary mb-1">
           <strong>vision</strong>
