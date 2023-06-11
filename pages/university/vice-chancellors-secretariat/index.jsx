@@ -8,7 +8,7 @@ const index = () => {
         <h1
           className={`my-5 text-3xl font-bold  uppercase text-headingPrimary`}
         >
-          vice chancellor's secretariat
+          vice chancellor&apos;s secretariat
         </h1>
 
         <h2 className="font-bold text-lg">Vice Chancellor</h2>
