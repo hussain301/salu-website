@@ -39,7 +39,7 @@ const departmentOfSindhi = () => {
         </h2>
         <p className="mb-4">
           The Department of Sindhi was established in the year of 1990. It
-          offers B.S (Four –year program) and M.A Degree Courses. B.S (Four Year
+          offers B.S (Four &ndash;year program) and M.A Degree Courses. B.S (Four Year
           Program) and M.A Classes are conducted in the morning shift. Facility
           of Seminar Library is also available. Literary Meetings are organized
           regularly. The Department has published fifteen issues of Research

@@ -288,7 +288,7 @@ const index = () => {
 
           <h2 class="text-xl font-bold mt-8 mb-4">Restoration of Admission:</h2>
           <p>
-            Student achieving less than GPA 1.33 and declared "drop" in any
+            Student achieving less than GPA 1.33 and declared &rdquo;drop&rdquo; in any
             semester, may be provided with one chance to repeat the same
             semester in order to improve GPA up to or more than 1.33, till that
             he/she will not promoted in the next semester for which he/she has
@@ -296,7 +296,7 @@ const index = () => {
             pay full fees of the academic year.
           </p>
 
-          <h2 class="text-xl font-bold mt-8 mb-4">Improvement of Grade 'C':</h2>
+          <h2 class="text-xl font-bold mt-8 mb-4">Improvement of Grade &rsquo;C&rsquo;:</h2>
           <p>
             A student whose Degree in Grade C or a student shall be allowed to
             improve his/her grade C in the course(s) in any semester.
@@ -386,7 +386,7 @@ const index = () => {
             <p>
               A student who fails short attendance in any case will not be
               eligible to appear in Mid Term or final test examination. That
-              student's case shall be examined by the chairman or on medical
+              student&apos;s case shall be examined by the chairman or on medical
               grounds. If genuine, he/she will be recommended for the
               restoration of admission to continue education from that semester
               from where he/she discontinued education.
@@ -407,7 +407,7 @@ const index = () => {
           <div class="bg-white rounded-lg p-4 mt-4">
             <h2 class="text-xl font-bold mb-2">Paper Review Day</h2>
             <p>
-              The teacher will fix a "Paper Review Day" for students within
+              The teacher will fix a &quot;Paper Review Day&quot; for students within
               twelve days after the conduct of the final test paper to discuss
               the result. Later, he/she will submit the result to the
               Chairman/Director for further process to the Controller of
@@ -420,7 +420,7 @@ const index = () => {
               Submission of Final Test Result
             </h2>
             <p>
-              Once the "Paper Review Day" is held, the result of the Final Test
+              Once the &quot;Paper Review Day&quot; is held, the result of the Final Test
               will be displayed by the teacher on the notice board within
               fifteen days after the conduct of the paper. The teacher will
               submit assessed scripts of Final Test after a period of two
@@ -455,7 +455,7 @@ const index = () => {
           </div>
 
           <div class="bg-white rounded-lg p-4 mt-4">
-            <h2 class="text-xl font-bold mb-2">Vice Chancellor's Authority</h2>
+            <h2 class="text-xl font-bold mb-2">Vice Chancellor&apos;s Authority</h2>
             <p>
               The Vice Chancellor has powers to issue orders and instructions
               where the regulations are silent. In cases of ambiguity or

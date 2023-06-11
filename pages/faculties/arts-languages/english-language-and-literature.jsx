@@ -225,7 +225,7 @@ const englishLanguageAndLiterature = () => {
               Institute of English Language and Literature. This journal is
               recognized by HEC in the year 2009 and since then it is fully
               funded by Higher Education Commission of Pakistan (HEC) for its
-              publication. This falls in the ‘Y’ category of HEC recognized
+              publication. This falls in the &rsquo;Y&rsquo; category of HEC recognized
               national journals. Total 21 volumes have been published so for.
               This is also indexed by the international database agencies such
               as MLA, Thomson Reuters, Linguistics Abstracts Online and Ulrich

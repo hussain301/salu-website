@@ -72,7 +72,7 @@ const index = () => {
           SALUNI Newsletter, plays vital role in publication of every documents
           of the University ranging from Prospectus to Annual Reports etc.
           <br />
-          Media Section also highlights students’ participation in curricular
+          Media Section also highlights students&rsquo; participation in curricular
           and co-curricular activities. It is the section, usually referred by
           the students, parents, journalists and public for authentication of
           information, confirmation of dates and official point of view of the
