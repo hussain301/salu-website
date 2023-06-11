@@ -28,7 +28,7 @@ const index = () => {
       <PageBoiler
         title="Faculty of Arts & Languages"
         name="Prof. Dr. Ghulam Mustafa Mashori"
-        image="/faculties/arts-languages/EnglishTeam/G-Mustafa-Mashori.jpg"
+        image="/Faculties/arts-lang/EnglishTeam/G-Mustafa-Mashori.jpg"
         email=""
         designation="DEAN"
       />

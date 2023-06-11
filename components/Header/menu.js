@@ -59,7 +59,7 @@ export const menu = [
           },
           {
             name: "Department of Sindhi",
-            link: "/faculties/arts-languages/department-of-sindhi",
+            link: "/faculties/arts-languages/sindhi",
           },
           { name: "Department of Urdu", link: "/" },
           { name: "Foreign Lnaguages", link: "/" },
