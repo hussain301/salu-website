@@ -9,7 +9,7 @@ const PageBoiler = ({pageContent}) => {
             <h2 className="text-lg text-headingPrimary mb-1">
               <strong>{item.title}</strong>
             </h2>
-            <p dir="ltr" className={`${item.title==='PROGRAMS OFFERD' ? 'mx-5':''} mb-4`}>
+            <p dir="ltr" className={`${item?.title==='PROGRAMS OFFERD' ? 'mx-5':''} mb-4`}>
             {item.text.map((text, index) => (
            <> <span key={index}>  {text} </span><br /></>
             ))}</p>

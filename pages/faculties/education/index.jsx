@@ -10,12 +10,12 @@ const index = () => {
       </div>
       <div className=" flex flex-col  justify-center my-5  sm:flex-row gap-5">
         <Button>
-          <Link href="faculties/education/special-education">
+          <Link href="education/special-education">
             Department of Special Education
           </Link>
         </Button>
         <Button>
-          <Link href="faculties/education/teacher-education">
+          <Link href="education/teacher-education">
             Department of Special Education
           </Link>
         </Button>

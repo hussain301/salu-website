@@ -76,9 +76,9 @@ export const menu = [
       },
       {
         isMultiLinks: true,
-        selfLink: "",
+        selfLink: "/faculties/law",
         name: "Law",
-        link: [{ name: "SZAB, School of Law", link: "/" }],
+        link: [{ name: "SZAB, School of Law", link: "/faculties/law" }],
       },
       {
         isMultiLinks: true,
