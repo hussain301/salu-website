@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import {PageProfileBoiler } from "../../../components";
+import { PageProfileBoiler } from "../../../components";
 
 const index = () => {
   return (

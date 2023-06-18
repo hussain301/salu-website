@@ -82,7 +82,7 @@ export const menu = [
       },
       {
         isMultiLinks: true,
-        selfLink: "",
+        selfLink: "/faculties/physical-sciences",
         name: "Physical Sciences",
         link: [
           { name: "Archaology", link: "/" },
